@@ -21,23 +21,28 @@ p, li {
 	letter-spacing: 1px;
 }
 
+a {
+	text-decoration: none;
+	color: #24188c;
+}
+
 .centerimg {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.indextext {
+.titletext {
 	color: white;
 	text-shadow:
-	-1px -1px 0 #0463fb,
-	1px -1px 0 #0463fb,
-	-1px 1px 0 #0463fb,
-	1px 1px 0 #0463fb;
+	-1px -1px 0 #24188c,
+	1px -1px 0 #24188c,
+	-1px 1px 0 #24188c,
+	1px 1px 0 #24188c;
 }
 
 .background {
-	background-color: #4088fc;
+	background-color: #6699ff;
 	background-image: url('../img/sea.png');
 	background-position: bottom;
 	background-repeat: repeat-x;
