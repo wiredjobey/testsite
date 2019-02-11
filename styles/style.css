@@ -41,6 +41,11 @@ a {
 	1px 1px 0 #24188c;
 }
 
+.indextext {
+	color: white;
+	text-shadow: 1px 1px #24188c;
+}
+
 .background {
 	background-color: #6699ff;
 	background-image: url('../img/sea.png');
