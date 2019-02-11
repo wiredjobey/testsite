@@ -1,0 +1,45 @@
+html {
+	font-size: 14px;
+	font-family: 'Roboto Mono', Mono;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+.enter {
+	text-align: center;
+	letter-spacing: 20px;
+	font-style: italic;
+	background-color: #6699ff;
+}
+
+p, li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+.centerimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.indextext {
+	color: white;
+	text-shadow:
+	-1px -1px 0 #0463fb,
+	1px -1px 0 #0463fb,
+	-1px 1px 0 #0463fb,
+	1px 1px 0 #0463fb;
+}
+
+.background {
+	background-color: #4088fc;
+	background-image: url('../img/sea.png');
+	background-position: bottom;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
