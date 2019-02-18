@@ -4,21 +4,16 @@ html {
 }
 
 h1 {
+	color: white;
 	font-size: 40px;
-	text-align: center;
-}
-
-.enter {
-	text-align: center;
-	letter-spacing: 20px;
-	font-style: italic;
-	background-color: #6699ff;
 }
 
 p, li {
+	color: white;
 	font-size: 16px;
 	line-height: 2;
 	letter-spacing: 1px;
+	text-shadow: 1px 1px #24188c;
 }
 
 a {
@@ -26,14 +21,15 @@ a {
 	color: #24188c;
 }
 
-.centerimg {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+#enter {
+	text-align: center;
+	letter-spacing: 20px;
+	font-style: italic;
+	background-color: #6699ff;
 }
 
-.titletext {
-	color: white;
+#titletext {
+	text-align: center;
 	text-shadow:
 	-1px -1px 0 #24188c,
 	1px -1px 0 #24188c,
@@ -41,9 +37,15 @@ a {
 	1px 1px 0 #24188c;
 }
 
-.indextext {
-	color: white;
-	text-shadow: 1px 1px #24188c;
+#indexdiv {
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+.centerimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .background {
